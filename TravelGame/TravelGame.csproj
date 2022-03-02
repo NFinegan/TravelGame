@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Marketboard.png" />
+    <None Remove="Nyx-removebg-preview.png" />
+    <None Remove="NyxGarlemald.png" />
+    <None Remove="NyxGarlemald2.png" />
+    <None Remove="NyxKugane.png" />
+    <None Remove="NyxKugane2.png" />
+    <None Remove="NyxMareLamentorum.png" />
+    <None Remove="NyxSharlayan.png" />
+    <None Remove="NyxThavnair.png" />
+    <None Remove="NyxThavnair3.png" />
+    <None Remove="SharlayanText.png" />
+    <None Remove="Thavnair.png" />
+    <None Remove="ThavnairText.png" />
+    <None Remove="WorldMap.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Media\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Marketboard.png" />
+    <Resource Include="Nyx-removebg-preview.png" />
+    <Resource Include="NyxGarlemald.png" />
+    <Resource Include="NyxGarlemald2.png" />
+    <Resource Include="NyxKugane.png" />
+    <Resource Include="NyxKugane2.png" />
+    <Resource Include="NyxMareLamentorum.png" />
+    <Resource Include="NyxSharlayan.png" />
+    <Resource Include="NyxThavnair.png" />
+    <Resource Include="NyxThavnair3.png" />
+    <Resource Include="SharlayanText.png" />
+    <Resource Include="Thavnair.png" />
+    <Resource Include="ThavnairText.png" />
+    <Resource Include="WorldMap.png" />
+  </ItemGroup>
+
+</Project>

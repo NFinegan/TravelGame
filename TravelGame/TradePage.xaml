@@ -1,0 +1,39 @@
+﻿<Page x:Class="TravelGame.TradePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TravelGame"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TradePage">
+
+    <Grid>
+        <Image x:Name="MarketPlaceBackground" HorizontalAlignment="Left" Height="447" VerticalAlignment="Top" Width="793" Source="/Marketboard.png"/>
+        <Image x:Name="Avatar1Image" HorizontalAlignment="Left" Height="283" Margin="-190,157,0,0" VerticalAlignment="Top" Width="448" Source="/NyxGarlemald2.png" MouseDown="Avatar1Image_MouseDown" Tag=""/>
+        <Image x:Name="Avatar2Image" HorizontalAlignment="Center" Height="359" Margin="0,166,0,0" VerticalAlignment="Top" Width="484" Source="/NyxKugane2.png" MouseDown="Avatar1Image_MouseDown"/>
+        <Image x:Name="Avatar3Image" HorizontalAlignment="Left" Height="300" Margin="492,157,0,0" VerticalAlignment="Top" Width="422" Source="/NyxThavnair3.png" Tag="" MouseDown="Avatar1Image_MouseDown"/>
+        <Button Content="RETURN" HorizontalAlignment="Left" Margin="71,32,0,0" VerticalAlignment="Top" Click="Button_Click" Height="33" Width="84" FontWeight="Bold">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="AdventurerNPCButton" Content="Trade with NPC" HorizontalAlignment="Left" Margin="34,374,0,0" VerticalAlignment="Top" Height="43" Width="130" Click="NPCButton_Click" FontWeight="Bold" Tag="">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="FloristNPCButton" Content="Trade with NPC" HorizontalAlignment="Left" Margin="317,374,0,0" VerticalAlignment="Top" Height="43" Width="130" Click="NPCButton_Click" FontWeight="Bold">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="CitizenNPCButton" Content="Trade with NPC" HorizontalAlignment="Left" Margin="636,374,0,0" VerticalAlignment="Top" Height="43" Width="130" Click="NPCButton_Click" FontWeight="Bold">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+
+    </Grid>
+</Page>
